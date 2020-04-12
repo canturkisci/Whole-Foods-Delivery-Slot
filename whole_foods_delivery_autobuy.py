@@ -38,7 +38,7 @@ def autoCheckout(driver):
       print("(3) )Passed out of stock")
    except NoSuchElementException:
       pass
-   sleep(60)
+   time.sleep(10)
    # try:
    #    time.sleep(1)
    #    payment_select_continue = driver.find_element_by_xpath('/html/body/div[5]/div[1]/div[2]/div[2]/div[4]/div/form/div[3]/div[1]/div[2]/div/div/div/div[1]/span/span/input')
